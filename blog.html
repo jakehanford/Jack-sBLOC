@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Jack's Blog</title>
       <link href="bootstrap.css" rel="stylesheet" media="screen">
+      <link rel="stylesheet" type="text/css" href="universal.css">
   </head>
 
   <body>
@@ -10,28 +11,30 @@
     <header>
       <div class="hero-unit">
       <h1 id="title">The life of a 19 year old.</h1>
+      <br />
+        <!-- <img src="logo.png"> Something isn't working with the 'height' tag with this image? -->
     </div>
       <div id="banner">
-        <img src="http://placehold.it/800x100">
       </div>
     </header>
 
     <section>
       <header>
         <h1>Posts</h1>
+      <hr> <!-- Should be fade, but something isn't working regarding the css, possibly the <link> tags? -->
       </header>
-      <article>
+      <article class="well"
         <header>
-          <h1>Today</h1>
+          <h4>Today</h4>
         </header>
         <div class="post">
          
         </div>
+        
         <p>I learned so much Ruby today, it was insane. Ruby is so great, and I'm having so much fun in Bloc. I really enjoy working with my mentor and cohort. I can't wait to deploy my first app!</p>
       </article>
-
       <div class="submit">
-        <a href="#" class="btn">Submit</a>
+          <button class="btn btn-small" type="button">Submit</button>
       </div>
     </section>
   </div>
