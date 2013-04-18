@@ -7,23 +7,49 @@
   </head>
 
   <body>
+    <!-- Side Bar! -->
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <br />
+      <div class="well">
+        <img src="jack.jpg" class="img-polaroid">
+        <h4 align="center">Jack Hanford</h4>
+      </div>
+    <div class="well">
+  <ul class="nav nav-list">
+    <li class="nav-header">More Topics</li>
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Filler</a></li>
+    <li><a href="#">Filler</a></li>
+    <li><a href="#">Filler</a></li>
+    <li><a href="#">Filler</a></li>
+    <li><a href="#">Filler</a></li>
+  </ul>
+  </div>
+  <div class="well">
+    <h5>Social</h5>
+  </div>
+</div>
+  <!-- SideBar is done! -->
+  <!-- Body Begins -->
+    <div class="span10">
     <div align="center">
     <header>
+      <!--
       <div class="hero-unit">
-      <h1 id="title">The life of a 19 year old.</h1>
-      <br />
+      <h2 id="title">The life of a 19 year old.</h2> -->
         <!-- <img src="logo.png"> Something isn't working with the 'height' tag with this image? -->
-    </div>
-      <div id="banner">
+    <div id="banner">
       </div>
     </header>
 
     <section>
       <header>
-        <h1>Posts</h1>
-      <hr> <!-- Should be fade, but something isn't working regarding the css, possibly the <link> tags? -->
+        <h3>Blog Posts</h3>
+      <hr> <!-- Should be fade, <div> but something isn't working regarding the css, possibly the <link> tags? -->
       </header>
-      <article class="well"
+      <article class="well">
         <header>
           <h4>Today</h4>
         </header>
@@ -34,9 +60,13 @@
         <p>I learned so much Ruby today, it was insane. Ruby is so great, and I'm having so much fun in Bloc. I really enjoy working with my mentor and cohort. I can't wait to deploy my first app!</p>
       </article>
       <div class="submit">
-          <button class="btn btn-small" type="button">Submit</button>
+          <button class="btn-success" type="button">Submit</button>
+          <button class="btn-danger" type="button">Cancel</button>
       </div>
     </section>
   </div>
-  </body>
+     </div>
+  </div>
+</div>
+</body>
 </html>

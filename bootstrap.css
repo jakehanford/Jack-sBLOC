@@ -258,6 +258,7 @@ a:focus {
 }
 
 .img-circle {
+  border: 5px solid #e4e4e4;
   -webkit-border-radius: 500px;
      -moz-border-radius: 500px;
           border-radius: 500px;
