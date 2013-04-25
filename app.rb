@@ -12,7 +12,7 @@ get '/' do
       <br />
       <div class='well'>
         <div align='center'>
-        <img src='jack.jpg' class='img-polaroid'>
+        <img src='public/jack.jpg' class='img-polaroid'>
         <h4 align='center'>Jack Hanford</h4>
       </div>
       </div>
@@ -65,7 +65,7 @@ get '/' do
  " 
  <html>
  <head>
- <link href='bootstrap.css' rel='stylesheet' media='screen'>
+ <link href='public/bootstrap.css' rel='stylesheet' media='screen'>
      <style>
      </style>
      </head>
